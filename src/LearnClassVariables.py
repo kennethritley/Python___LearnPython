@@ -13,6 +13,9 @@ greeting = "Hello"
 
 # Define a function to demonstrate local variables
 def greet(name):
+    # NOTE: Because "greeting" is a global variable, you can access
+    # it here. But if you wanted to change its value, you would need:
+    # "global greeting" as a command here. That is needed to change g-variables!
     # *****LOCAL VARIABLE *****
     # This variable can only be accessed in this function
     punctuation = "!"
